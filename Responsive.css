@@ -1,0 +1,136 @@
+/*Celulares vertical*/
+@media (max-width:480px){
+
+    main{
+        background-color: #a6e1fa;
+        height: 80vh;
+    }
+    
+  
+    
+    h1{
+        margin: 0px;
+    }
+    
+    .main_section_about_us{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .main_section_about_us-contenedor-a{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main_section_about_us-contenedor-b{
+        width: 0%;
+        height: 0%;
+    
+    }
+    
+    button{
+        background-color: #0A2472;
+        border-radius: 10px;
+        padding:10px;
+        color: white;
+    }
+    
+    .tentaculos{
+        height: 80%;
+       width: 100%;
+       transform: rotate(90deg);
+
+    }
+    .contacto{
+        height:120vh;
+        width: 100%;
+        background-color: #0A2472;
+    }
+    
+    .contacto_caja{
+        margin:auto;
+        padding: auto;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .contacto_caja_form{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .contacto_caja_form-cosas{
+        margin:auto;
+        padding: auto;
+        display: block;
+        width: 50%;
+        height: 10%;
+    }
+}
+
+/*Celulares horizontal y tablets vertical*/
+@media (min-width:481px) and (max-width:767px){
+
+    .main_section_about_us{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main_section_about_us-contenedor-b{
+        width: 30%;
+        height: 80%;
+    
+ 
+    }
+
+    .tentaculos{
+        height: 50%;
+       width: 100%;
+    }
+
+    
+.contacto{
+    height:100vh;
+    width: 100%;
+    background-color: #0A2472;
+}
+
+.contacto_caja{
+    margin:auto;
+    padding: auto;
+    height: 90%;
+    width: 100%;
+}
+
+.contacto_caja_form{
+    height: 100%;
+    width: 100%;
+}
+
+.contacto_caja_form-cosas{
+    margin:auto;
+    padding: auto;
+    display: block;
+    width: 50%;
+    height: 10%;
+}
+
+}
+
+/*escritorios normales y tablets horizontal*/
+@media (min-width:768px) and (max-width:1199px){
+
+    .tentaculos{
+        height: 50%;
+       width: 100%;
+    }
+
+  
+}
+
+/*escritorios muy grandes*/
+@media (min-width:1200px){}
